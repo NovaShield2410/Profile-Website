@@ -4,38 +4,73 @@
   <meta charset="UTF-8">
   <title>Preet Vijay Mishra - Profile</title>
   <link rel="stylesheet" href="style.css">
+  <!-- AOS Library -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <div class="container">
-    <center>
+    <center data-aos="fade-down">
       <img src="profile.jpg" alt="Preet Vijay Mishra" class="profile-pic" />
       <h1>Preet Vijay Mishra</h1>
       <h2>Electronics & Communication Engineering Student</h2>
       <a class="resume-btn" href="PreetVijayMishraResume.pdf" target="_blank">Download Resume</a>
     </center>
-    <div class="about">
+
+    <div class="about" data-aos="fade-up">
       <h2>About Me</h2>
       <p>I am a motivated and detail-oriented second-year engineering student with a strong interest in Machine Learning, proficient in Python and C++. I am passionate about AI, data science, and building real-world projects that solve problems.</p>
     </div>
-    <div class="skills">
+
+    <div class="education" data-aos="fade-right">
+      <h2>Education</h2>
+      <p><strong>MIT-WPU, Pune</strong><br>B.Tech in Electronics & Communication (AI & ML)<br>Aug 2023 – Present</p>
+    </div>
+
+    <div class="skills" data-aos="zoom-in">
       <h2>Skills</h2>
       <ul>
-        <li>Python, C++, Embedded C, Java</li>
-        <li>Pandas, Numpy</li>
-        <li>Teamwork, Communication, Problem-solving, Adaptability</li>
+        <li>Programming Languages: Python, C++, Embedded C, Java</li>
+        <li>Libraries/Tools: Pandas, Numpy</li>
+        <li>Soft Skills: Teamwork, Communication, Problem-solving, Adaptability</li>
       </ul>
     </div>
-    <div class="projects">
+
+    <div class="certifications" data-aos="fade-left">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Python Programming - Infosys Springboard</li>
+        <li>Cybersecurity - Cisco Networking Academy</li>
+        <li>MATLAB Onramp & Signal Processing Onramp</li>
+        <li>2048 Game CSI - MITWPU</li>
+        <li>Computer Vision Workshop - ROBOCON</li>
+      </ul>
+    </div>
+
+    <div class="projects" data-aos="zoom-in-up">
       <h2>Projects</h2>
       <ul>
         <li><strong>2048 Game:</strong> Classic puzzle game built using Python and Pandas.</li>
-        <li><strong>Gesture-Controlled Car:</strong> Arduino Nano and accelerometer based hand gesture car.</li>
+        <li><strong>Gesture-Controlled Car:</strong> Arduino Nano and accelerometer-based hand gesture car.</li>
         <li><strong>Face Detection with ESP32-CAM:</strong> Real-time face recognition using ESP32-CAM.</li>
       </ul>
     </div>
+
+    <div class="contact" data-aos="fade-up">
+      <h2>Contact Me</h2>
+      <p>Email: preetvmishra2005@gmail.com</p>
+      <p>Phone: 8390076425</p>
+      <p>Location: Pune, Maharashtra</p>
+    </div>
   </div>
+
   <footer>
     &copy; 2025 Preet Vijay Mishra
   </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
